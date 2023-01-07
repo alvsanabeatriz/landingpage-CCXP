@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#header {
+    background-color: #FFD900;
+    padding: 28px;
+}
+
+#header div img {
+    width: 202px;
+    height: 63px;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cabecalho span {
+    color:white
+}
+.section-infos-event {
+    background-color: #514988;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    width: 50vw
+}
+
+.section-infos-event h1 {
+    color:#F3C61F;
+    width: 676px;
+    font-size: 50px;
+    margin: 0 auto;
+}
+
+.section-infos-event h2 {
+    margin: 20px 0;
+    
+}
+
+.section-infos-event p {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.section-count-event {
+    height: 50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.countdown{
+    display: flex;
+    flex-direction: row;
+}
+.container {
+    display: flex;
+}
+
+video {
+    width: 97%;
+    height: 90%;
+    margin-left: 10px; 
+}
+
+.countdown h1 {
+    font-size: 45px;
+    padding-left: 20px;
+    width: 150px;
+    color: #514988;
+}
+
+.countdown-text {
+    color:#E33881;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 20px;
+    width: 150%;
+} 
+
+.obter-ticket ul {
+    display: flex;
+}
+
+.obter-ticket ul li {
+    list-style: none;
+    padding-left: 10px;
+}
+
+.alerta-ticket {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-ticket {
+    color: #F3C61F;
+    font-size: 22px;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-ticket {
+    background-color: #514988;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    width: 400px;
+    height: 100px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 15%;
+}
+
+.btn-ticket:hover {
+    background-color: #F3C61F;
+    color: black;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn ul li img {
+    width: 150px;
+    margin-left: 10px;
+}
